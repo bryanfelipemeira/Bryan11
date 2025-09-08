@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="IMG/Avatar Maria e Melissa.png" alt="avatar da Elo" class="rounded-circle" width="150" height="150">
+        <p class="lead">Nós somos a Maria e Melissa, estudantes do PMC</p>
+        <h1>E gostamos de trabalhar para conhecer lugares e mundos novos através da liberdade financeira</h1>
+        <p>Somos estudantes do último ano do ensino médio e gostamos de trabalhar e conhecer lugares novos. Adoramos investir em planos para o futuro, exclusivamente financeiro, ter um trabalho agradável nos motiva e traz um excelente retorno do qual iremos apresentar!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Boa comunicação</p>
+            <p class="badge bg-secondary">Organização</p>
+            <p class="badge bg-secondary">Planos de viagem</p>
+            <p class="badge bg-secondary">Independência Financeira</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Imagem projeto 1.png" class="card-img-top" alt="Passaporte viagem internacional">
+                    <div class="card-body">
+                        <h5 class="card-title">Passaporte viagem internacional</h5>
+                        <p class="card-text">O “Passaporte Livre” é um projeto voltado para ajudar pessoas a planejarem e realizarem viagens internacionais de forma acessível e organizada. Ele inclui dicas de destinos, orçamentos, documentação, vistos, passagens econômicas e experiências culturais ao redor do mundo.</p>
+                        <p><strong>Objetivo:</strong> Capacitar o viajante a explorar o mundo sem comprometer sua saúde financeira, ensinando como economizar, planejar e buscar experiências autênticas fora do país.</p>
+                        <p><strong>Relação com Independência Financeira:</strong> Viajar para o exterior é um sonho para muitos, mas pode se tornar uma armadilha financeira se não houver planejamento. Este projeto promove o uso consciente do dinheiro, incentivando o acúmulo de reservas e a geração de renda passiva para custear as viagens sem dívidas.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Imagem projeto 2.png" class="card-img-top" alt="Belezas e descobertas brasileiras">
+                    <div class="card-body">
+                        <h5 class="card-title">“Pé na estrada Brasil - Viagens Nacionais"</h5>
+                        <p class="card-text">Esse projeto foca em explorar o Brasil, promovendo o turismo interno e revelando destinos incríveis que muitas vezes passam despercebidos. Ideal para quem quer conhecer mais do país gastando menos.</p>
+                        <p><strong>Objetivo:</strong> Mostrar que é possível ter experiências enriquecedoras dentro do próprio país, com foco em roteiros alternativos, economia colaborativa (como caronas, hospedagem solidária) e valorização da cultura local.</p>
+                        <p><strong>Relação com Independência Financeira:</strong> A proposta é incentivar viagens conscientes, baratas e que respeitem o orçamento pessoal, mostrando que viajar não precisa significar luxo — e sim liberdade. Isso contribui para um estilo de vida mais simples e financeiramente sustentável.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="IMG/Imagem projeto 3.png" class="card-img-top" alt="Intercâmbio cultural">
+                    <div class="card-body">
+                        <h5 class="card-title">“Mundo de intercâmbio - Estudo e trabalho no exterior”</h5>
+                        <p class="card-text">Esse projeto ajuda jovens e adultos a planejarem e realizarem intercâmbios educacionais e profissionais no exterior, com foco em bolsas de estudo, programas de au pair, work and travel e estudos de idiomas.</p>
+                        <p><strong>Objetivo:</strong> Oferecer ferramentas e orientações práticas para quem quer morar fora por um tempo, com foco em crescimento pessoal, aprendizado de idiomas e construção de carreira internacional.</p>
+                        <p><strong>Relação com Independência Financeira:</strong> Um intercâmbio bem planejado pode ser um grande passo para a independência financeira: aprendendo novas habilidades, aumentando as oportunidades de trabalho e desenvolvendo a autoconfiança. Além disso, muitos programas permitem ganhar dinheiro enquanto se estuda, o que alivia os custos e impulsiona a autonomia.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Passaporte Viagem Internacional</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma plataforma digital desenvolvida para oferecer conteúdos e ferramentas sobre viagens internacionais, nacionais e programas de intercâmbio. Cada projeto é voltado a um público específico, mas todos compartilham o mesmo objetivo: tornar a experiência de viajar mais acessível, informativa e inspiradora.</p>
+                    <img src="Imagem projeto 1.png" class="img-fluid w-100" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="link">Ver projeto ao vivo</a>
+                    <a href="link">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pé na estrada Brasil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma plataforma digital que promove o turismo interno no Brasil, apresentando destinos pouco conhecidos e opções de viagens acessíveis.</p>
+                    <img src="Imagem projeto 2.png" class="img-fluid w-100" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="link">Ver projeto ao vivo</a>
+                    <a href="link">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mundo de Intercâmbio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto oferece informações sobre intercâmbios educacionais e culturais, com foco em programas que permitem estudar e trabalhar no exterior.</p>
+                    <img src="Imagem projeto 3.png" class="img-fluid w-100" alt="Imagem representativa do projeto de intercâmbio">
+                </div>
+                <div class="modal-footer">
+                    <a href="link">Ver projeto ao vivo</a>
+                    <a href="link
+
